@@ -1,0 +1,1 @@
+document.querySelectorAll('.data').forEach(e=>e.textContent=new Date().toLocaleDateString('pt-BR',{day:'numeric',month:'long',year:'numeric'}));

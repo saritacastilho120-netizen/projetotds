@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cuidado: É Golpe!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <span>informação é proteção todos os dias</span>
+      <span class="data">dia -- de ---- de ----</span>
+    </div>
+    <h1>NOTÍCIAS DA SEGURANÇA</h1>
+    <h2><em>CUIDADO: É GOLPE!</em></h2>
+  </header>
+
+  <main class="container">
+    <article class="col-left">
+      <section class="materia-principal">
+        <h3>O perigo digital: como os golpistas evoluíram com a tecnologia</h3>
+        <p><span class="letra-capitular">A</span> tecnologia trouxe facilidades, mas também novas ferramentas para criminosos. 
+        Hoje os golpes mais comuns envolvem clonagem de perfis, falsas mensagens bancárias, links com malware e chamadas emocionais que pressionam a vítima a agir depressa.</p>
+
+        <h4>Como atuam os criminosos</h4>
+        <p>Os golpistas estudam vítimas, usam engenharia social e exploram urgência. Exemplos: pedir códigos de verificação, enviar boletos falsos, criar perfis idênticos de parentes.</p>
+
+        <h4>Sinais de alerta</h4>
+        <ul class="bullets">
+          <li>Mensagens com tom de urgência ou ameaça</li>
+          <li>Pedidos de transferência imediata</li>
+          <li>Links ou anexos estranhos</li>
+          <li>Solicitação de códigos recebidos por SMS</li>
+        </ul>
+
+        <h4>O que fazer se cair em um golpe</h4>
+        <ol class="steps">
+          <li>Bloquear contatos suspeitos</li>
+          <li>Comunicar o banco e autoridades</li>
+          <li>Trocar senhas e habilitar autenticação de dois fatores</li>
+          <li>Conversar com familiares e registrar queixa</li>
+        </ol>
+
+        <div class="quote">“A prevenção começa com informação e com o tempo que você toma para verificar.”</div>
+      </section>
+
+      <section class="estatisticas">
+        <h4>Estatísticas (exemplo)</h4>
+        <canvas id="chart" width="600" height="200"></canvas>
+        <p class="caption">Dados ilustrativos: crescimento de golpes digitais (2020-2025).</p>
+      </section>
+
+      <section class="quiz">
+        <h4>Jogo: É golpe ou não é?</h4>
+        <div id="quiz-area">
+          <p id="quiz-question"></p>
+          <div class="quiz-buttons">
+            <button id="btn-yes">É golpe</button>
+            <button id="btn-no">Não é</button>
+          </div>
+          <p id="quiz-feedback"></p>
+          <p id="quiz-score"></p>
+        </div>
+      </section>
+    </article>
+
+    <aside class="col-right">
+      <section class="lista-golpes">
+        <h4>Golpes mais comuns</h4>
+        <ul>
+          <li><a href="golpe-parente.html">💬 Golpe do Parente Falso</a></li>
+          <li><a href="golpe-whatsapp.html">📱 Clonagem de WhatsApp</a></li>
+          <li><a href="golpe-boletos.html">💳 Boletos Falsos</a></li>
+          <li><a href="golpe-tecnico.html">🏠 Falso Técnico em Domicílio</a></li>
+          <li><a href="golpe-investimento.html">💰 Falso Investimento</a></li>
+        </ul>
+        <blockquote>Desconfie da pressa. Golpista tem sempre urgência.</blockquote>
+      </section>
+
+      <section class="dica-dia">
+        <h4>Dica do Dia</h4>
+        <p>Antes de enviar dinheiro ou clicar, pare: ligue para a pessoa, confirme com o banco em canais oficiais e peça para alguém de confiança ajudar.</p>
+      </section>
+
+      <section class="sabia-que">
+        <h4>Sabia que?</h4>
+        <p>Mais de 60% dos golpes digitais são iniciados por aplicativos de mensagens. Compartilhe a informação com quem você ama.</p>
+      </section>
+
+      <section class="memory-game">
+        <h4>Jogo: Memória Segura</h4>
+        <div id="memory-board"></div>
+        <p id="memory-status"></p>
+        <button id="memory-reset">Reiniciar jogo</button>
+      </section>
+
+      <section class="contatos">
+        <h4>Contatos Úteis</h4>
+        <p>190 — Polícia | 197 — Polícia Civil | 151 — Procon</p>
+        <p><a href="#" id="link-safernet">SaferNet</a> | <a href="#" id="link-procon">Procon</a></p>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <hr>
+    <p>© 2025 Jornal Notícias da Segurança | Desenvolvido por Sara</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
